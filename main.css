@@ -98,10 +98,6 @@
     
 }
 
-
-
-
-
 @media screen and (max-width:769px) {
     .aboutme img{
         width:100%;
@@ -113,6 +109,8 @@
 /* RESPONSIVE NAVBAR ENDS */
 
 
+
+
 /* LANDING PAGE STARTS */
 .landing-page{
     display:flex;
@@ -121,24 +119,31 @@
     flex-direction: column;
     color:white;
 
-    background-image:url(./images/hero-bg.jpg);
+    background-image:url(./images/IMG_9178.jpg);
     background-repeat:no-repeat;
     width:100%;
-    background-position: top;
+    background-position:top ;
     background-attachment:fixed;
-
     height:90vh;
 }
-
-
 
 .landing-icon{
     color:white;
     padding-top:20px;
 }
 .landing-icon:hover{
-    color:var(--grey);
+    color:black;
     padding-top:20px;
+}
+@media screen and (max-width:769px) {
+    .landing-page{
+        background-repeat:no-repeat;
+        width:100%;
+        background-position:top center ;
+        background-attachment:fixed;
+        height:65vh;
+        /* color:black; */
+    }
 }
 
 /* LANDING PAGE ENDS */
@@ -314,7 +319,7 @@
 
 .mywork h1,h2{
     font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-    padding:20px 0;
+    padding:10px 0;
     letter-spacing: 5px;
 }
 
@@ -328,7 +333,11 @@
     transition: 0.3s ease-in-out;
     letter-spacing: 5px;
 }
-
+@media screen and (max-width:769px) {
+    .mywork{
+        padding:20px 0px 20px 10px;
+    }
+}
 
 /* MY WORK SECTION END*/
 
